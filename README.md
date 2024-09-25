@@ -10,6 +10,8 @@ threads) to execute independent clients. Each client executes a number
 of harmless SELECT's  and then stops doing anything.  The clients then
 hang either forever or until a specified timeout is reached.
 
+This is an implementation of a tool described at [AWS Blog: Performance impact of idle PostgreSQL connections](https://aws.amazon.com/blogs/database/performance-impact-of-idle-postgresql-connections/).
+
 ## Building
 
 Run  `make`  to compile.  You'll  need  Golang.  The repo  contains  a
