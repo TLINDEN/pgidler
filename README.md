@@ -17,15 +17,6 @@ This is an implementation of a tool described at [AWS Blog: Performance impact o
 Run  `make`  to compile.  You'll  need  Golang.  The repo  contains  a
 pre-compiled binary for linux amd.
 
-## Install
-
-Switch to a cluster context and there into the namespace of the pod on
-which you'd like to install the tool. Select the pod and execute:
-
-```
-make install pod=PODNAME
-```
-
 ## Usage
 
 `pgidler` offers two idle modes:
@@ -45,3 +36,16 @@ Usage of ./pgidler:
   -t, --timeout int       Wether to stop the clients after N seconds
   -u, --user string       Database user (default "postgres")
 ```
+
+# Report bugs
+
+[Please open an issue](https://codeberg.org/scip/pgidler/issues). Thanks!
+
+# License
+
+This work is licensed under the terms of the General Public Licens
+version 3.
+
+# Author
+
+Copyleft (c) 2024 Thomas von Dein

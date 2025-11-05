@@ -26,9 +26,6 @@ all: buildlocal
 buildlocal:
 	CGO_LDFLAGS='-static' go build -tags osusergo,netgo -ldflags="-extldflags=-static -s"
 
-install: buildlocal
-	kubectl cp $(tool) $(pod):$(dir)/$(tool)
-
 clean:
 	rm -rf $(tool) coverage.out
 
