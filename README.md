@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This software is now being maintained on [Codeberg](https://codeberg.org/scip/pgidler/).
+
 # pgidler
 
 Create idle postgres connections for testing
